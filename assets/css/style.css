@@ -1,0 +1,188 @@
+/* Base Styles CSS Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Roboto", serif;
+    scroll-behavior: smooth;
+}
+  
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+/* Base Styles CSS End */
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* Header Part CSS Start */
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1B1E23;
+    padding: 1.5rem 5rem;
+    font-size: 20px;
+    position: relative;
+}
+
+.header-logo {
+    white-space: nowrap;
+}
+
+.header-logo img {
+    max-width: 46px;
+    padding-right: 0.2rem;
+}
+
+.header-logo a {
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-menu ul li {
+    margin-left: 33px;
+}
+
+.nav-menu ul li a {
+    cursor: pointer;
+    color: #FEFEFE;
+}
+  
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.auth-buttons ul {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons ul li {
+    margin-left: 20px;
+}
+
+.auth-buttons ul li a {
+    cursor: pointer;
+    color: #FEFEFE;
+}
+
+
+.sign-in-btn,
+.sign-up-btn {
+    padding: 15px 35px; /* Adjust padding to maintain width */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    border: 2px solid #FEFEFE;
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+.sign-up-btn {
+    background: linear-gradient(180deg, #6C99F4 0%, #3F6FD1 100%);
+}
+/* Dropdown button styles */
+.dropdown-button {
+    display: none;
+}
+
+.dropdown-button button {
+    background: none;
+    border: none;
+    color: #FEFEFE;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown-logo img {
+    max-width: 46px;
+}
+
+.dropdown-close-button button {
+    background: none;
+    border: none;
+    color: #FEFEFE;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.line-splitter {
+    width: 100%;
+    height: 2px;
+    background: #FEFEFE;
+    margin: 0px;
+
+}
+
+/* Only show these elements when menu is active */
+.nav-menu:not(.show) .dropdown-logo img,
+.nav-menu:not(.show) .dropdown-close-button button,
+.nav-menu:not(.show) .line-splitter {
+    display: none;
+}
+
+/* Show elements when menu is open OR during close animation */
+.nav-menu.show .dropdown-logo img,
+.nav-menu.show .dropdown-close-button button,
+.nav-menu.show .line-splitter,
+.nav-menu.hide .dropdown-logo img,
+.nav-menu.hide .dropdown-close-button button,
+.nav-menu.hide .line-splitter {
+    display: block;
+}
+
+
+
+/* Header Part CSS End */
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* Footer Part CSS Start */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1B1E23;
+    padding: 1.5rem 5rem;
+    font-size: 20px;
+    position: relative;
+}
