@@ -21,7 +21,7 @@
                 <li>
                     <a href="#">RESOURCES</a>
                     <ul>
-                        <li><a href="#">How to turn long videos into shorts</a></li>
+                        <li><a href="#">How to turn long videos<br> into shorts</a></li>
                         <li><a href="#">See All Resources</a></li>
                     </ul>
                 </li>
@@ -35,10 +35,10 @@
                 </li>
             </ul>
         </div>
+      </div>
 
         <div class="copyright">
-          <p> Copyright &copy; 2025 CropMedia</p>
+            <p> Copyright &copy; 2025 CropMedia</p>
         </div>
-      </div>
     </div>
 </section>

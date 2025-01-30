@@ -1,10 +1,11 @@
-<!-- end of base -->
+<!-- start of navigation -->
 <?php
 require_once(__DIR__ . '/../components/header.php');
 ?>
+<!-- end of navigation -->
+
+
 <!-- start of base -->
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,11 +28,32 @@ require_once(__DIR__ . '/../components/header.php');
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
   </head>
+
+  <section id="hero-section">
+    <div class="hero-wrapper">
+      <div class="hero-texture">
+        <img src="../assets/images/bg_texture.svg" alt="bg-texture" />
+      </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>1 Long Video, Endless Clips. <br>All In One Click</h1>
+          <p>
+            Cut Long Videos Into Viral Clips, Effortlessly.
+          </p>
+          <div class="hero-buttons">
+            <a href="sign-up.php" class="btn btn-primary">Get Started</a>
+            <a href="sign-in.php" class="btn btn-secondary">Sign In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </html>
-
-
 <!-- end of base -->
+
+
+<!-- start of footer -->
 <?php
 require_once(__DIR__ . "/../components/footer.php");
 ?>
-<!-- start of base -->
+<!-- end of footer -->

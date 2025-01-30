@@ -3,6 +3,8 @@
 /* Min Width 992px and Max Width 1199px */
 @media (max-width: 1200px){
 
+  /* Header Part CSS Start */
+
   .navigation-container {
     font-size: 18px;
   }
@@ -104,9 +106,18 @@
   .sign-up-btn {
       padding: 13px 31px;
   }
+
+  /* Header Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
+
 }
 
 @media (max-width: 900px){
+
+  /* Header Part CSS Start */
+
 
   .header-logo img {
     max-width: 42px;
@@ -126,9 +137,54 @@
   .sign-up-btn {
       padding: 12px 30px;
   }
+
+  /* Header Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .footer-wrapper {
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 1rem;
+  }
+
+  .footer-menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-menu ul {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-menu ul li ul {
+    gap: 0.2rem;
+  }
+
+  .footer-menu ul li {
+    margin-bottom: 0rem;
+  }
+
+  .copyright {
+    margin-top: 1rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px){
+
+  /* Header Part CSS Start */
+
   .header-logo img {
     max-width: 40px;
   }
@@ -143,25 +199,44 @@
   .sign-up-btn {
       padding: 11px 29px;
   }
+
+  /* Header Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
 }
 
 @media (max-width: 600px){
+
+  /* Header Part CSS Start */
+
   .header-logo img {
     max-width: 35px;
   }
 
   .header-logo a {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .sign-in-btn,
   .sign-up-btn {
-      padding: 8px 16px;
-      font-size: 12px;
+    padding: 8px 16px;
+    font-size: 12px;
   }
+
+  .dropdown-button {
+    padding-right: 0.4rem;
+  }
+
+  /* Header Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
 }
 
 @media (max-width: 400px){
+
+  /* Header Part CSS Start */
+
   .header-logo img {
     max-width: 30px;
   }
@@ -175,9 +250,16 @@
       padding: 6px 12px;
       font-size: 10px;
   }
+
+  /* Header Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
 }
 
 @media (max-width: 300px){
+
+  /* Header Part CSS Start */
+
   .header-logo img {
     max-width: 25px;
   }
@@ -195,4 +277,9 @@
       padding: 4px 8px;
       font-size: 8px;
   }
+
+  /* Header Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
 }
