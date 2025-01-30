@@ -111,6 +111,11 @@
 
   /* ///////////////////////////////////////////////////////////// */
 
+  /* Footer Part CSS Start */
+
+  .footer-container {
+    padding: 1rem;
+  }
 
 }
 
@@ -179,6 +184,18 @@
     margin-top: 1rem;
     text-align: center;
   }
+
+  /* ///////////////////////////////////////////////////////////// */
+
+  /* Index Part CSS Start */
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px){
@@ -205,6 +222,7 @@
   /* ///////////////////////////////////////////////////////////// */
 }
 
+
 @media (max-width: 600px){
 
   /* Header Part CSS Start */
@@ -230,6 +248,12 @@
   /* Header Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
+
+  /* Index Part CSS Start */
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
 
 }
 

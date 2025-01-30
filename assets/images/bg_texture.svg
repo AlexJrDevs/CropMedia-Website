@@ -273,7 +273,7 @@
 </filter>
 <radialGradient id="paint0_radial_70_144" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(347 347) rotate(90) scale(691.108)">
 <stop stop-color="#161618" stop-opacity="0"/>
-<stop offset="0.268" stop-color="#1B1E23"/>
+<stop offset="0.2" stop-color="#1B1E23"/>
 </radialGradient>
 <clipPath id="clip0_70_144">
 <rect width="694" height="694" fill="white"/>

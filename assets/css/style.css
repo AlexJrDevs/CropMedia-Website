@@ -46,7 +46,11 @@ img {
     background: #1B1E23;
     padding: 1rem 5rem;
     font-size: 20px;
-    position: relative;
+    position: fixed; /* Make the header stick to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header-logo {
@@ -83,6 +87,7 @@ img {
 .nav-menu ul li a {
     cursor: pointer;
     color: #FEFEFE;
+    font-weight: 500;
 }
   
 .auth-buttons {
@@ -103,6 +108,7 @@ img {
 .auth-buttons ul li a {
     cursor: pointer;
     color: #FEFEFE;
+    font-weight: 500;
 }
 
 
@@ -184,7 +190,6 @@ img {
     align-items: flex-start;
     background: #1B1E23;
     padding: 1.5rem 5rem;
-    font-size: 20px;
     position: relative;
     width: 100%;
 }
@@ -223,7 +228,7 @@ img {
     flex-direction: row; 
     list-style: none;
     padding: 0;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .footer-menu > ul > li > a{
@@ -239,7 +244,7 @@ img {
 
 .footer-menu a {
     color: #FEFEFE;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -261,7 +266,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center; /* Align content to the top */
-    height: 80vh; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     overflow: hidden; /* Ensure the texture doesn't overflow */
     background-color: #1B1E23;
 }
@@ -277,8 +282,6 @@ img {
   
 .hero-texture {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     z-index: 1; /* Place the texture behind the container */
@@ -288,7 +291,7 @@ img {
 }
 
 .hero-texture img {
-    width: 70%;
+    width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure the texture covers the entire area */
 
@@ -297,12 +300,15 @@ img {
 
   
 .hero-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
     position: relative;
     z-index: 2; /* Place the container above the texture */
     text-align: center; /* Center the content horizontally */
-    max-width: 800px; 
+    width: 100%;
+    height: 100%;
     padding: 2rem;
-    white-space: nowrap;
 }
 
 
@@ -334,18 +340,14 @@ img {
     border-radius: 50px;
     color: #FEFEFE;
     font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 
 .hero-btn-sign-up {
     background: linear-gradient(180deg, #6C99F4 0%, #3F6FD1 100%);
 }
-
-
-
-
-
-
 
 
 
