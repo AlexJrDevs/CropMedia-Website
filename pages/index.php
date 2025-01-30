@@ -32,7 +32,7 @@ require_once(__DIR__ . '/../components/header.php');
   <section id="hero-section">
     <div class="hero-wrapper">
       <div class="hero-texture">
-        <img src="../assets/images/bg_texture.svg" alt="bg-texture" />
+        <img src="../assets/images/BG_texture.svg" alt="bg-texture" />
       </div>
       <div class="hero-container">
         <div class="hero-content">
@@ -41,8 +41,8 @@ require_once(__DIR__ . '/../components/header.php');
             Cut Long Videos Into Viral Clips, Effortlessly.
           </p>
           <div class="hero-buttons">
-            <a href="sign-up.php" class="btn btn-primary">Get Started</a>
-            <a href="sign-in.php" class="btn btn-secondary">Sign In</a>
+            <a href="sign-up.php" class="hero-btn-sign-up">Get Started</a>
+            <a href="sign-in.php" class="hero-btn-sign-in">Sign In</a>
           </div>
         </div>
       </div>

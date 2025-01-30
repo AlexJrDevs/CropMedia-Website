@@ -44,7 +44,7 @@ img {
     justify-content: space-between;
     align-items: center;
     background: #1B1E23;
-    padding: 1.5rem 5rem;
+    padding: 1rem 5rem;
     font-size: 20px;
     position: relative;
 }
@@ -256,69 +256,90 @@ img {
 
 /* Index Part CSS Start */
 
-/* Hero Section Styles */
 #hero-section {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
+    align-items: center; /* Align content to the top */
+    height: 80vh; /* Full viewport height */
     overflow: hidden; /* Ensure the texture doesn't overflow */
+    background-color: #1B1E23;
 }
-
+  
 .hero-wrapper {
     position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #1B1E23;
+    align-items: center; /* Align content to the top */
 }
-
+  
 .hero-texture {
     position: absolute;
     top: 0;
     left: 0;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
     z-index: 1; /* Place the texture behind the container */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
 }
 
 .hero-texture img {
-    width: 100%;
+    width: 70%;
     height: 100%;
     object-fit: cover; /* Ensure the texture covers the entire area */
-}
 
+}
+  
+
+  
 .hero-container {
     position: relative;
     z-index: 2; /* Place the container above the texture */
     text-align: center; /* Center the content horizontally */
-    max-width: 800px; /* Adjust as needed */
-    padding: 20px;
+    max-width: 800px; 
+    padding: 2rem;
+    white-space: nowrap;
 }
 
+
+  
 .hero-content h1 {
-    font-size: 3rem; /* Adjust as needed */
+    font-size: 64px;
+    color: #FEFEFE;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
-
+  
 .hero-content p {
-    font-size: 1.2rem; /* Adjust as needed */
-    margin-bottom: 2rem;
+    font-size: 18px;
+    color: #8A95AA;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
 }
-
+  
 .hero-buttons {
     display: flex;
     justify-content: center;
     gap: 1rem; /* Space between buttons */
 }
-
-.hero-buttons .btn {
-    padding: 0.75rem 1.5rem; /* Adjust as needed */
+  
+.hero-buttons a {
+    padding: 0.9rem 2rem;
     font-size: 1rem;
+    border: 2px solid #FEFEFE;
+    border-radius: 50px;
+    color: #FEFEFE;
+    font-size: 18px;
 }
 
+
+.hero-btn-sign-up {
+    background: linear-gradient(180deg, #6C99F4 0%, #3F6FD1 100%);
+}
 
 
 
