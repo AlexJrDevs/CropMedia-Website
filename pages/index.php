@@ -40,9 +40,11 @@ require_once(__DIR__ . '/../components/header.php');
           <p>
             Long Videos Into Viral Clips, Effortlessly.
           </p>
-          <div class="hero-buttons">
-            <a href="sign-up.php" class="hero-btn-sign-up">Get Started</a>
-            <a href="sign-in.php" class="hero-btn-sign-in">Sign In</a>
+          <div class="hero-upload-container">
+            <div class="hero-upload-content">
+              <a class="upload-text">Drop a long video file</a>
+              <a href="sign-up.php" class="upload-button">Upload Video</a>
+            </div>
           </div>
         </div>
       </div>
@@ -51,6 +53,9 @@ require_once(__DIR__ . '/../components/header.php');
 
   <section id="features-section">
     <div class="features-wrapper">
+      <div class="features-header">
+        <h2><span class="features-header-underline">Instant</span> Clips, Ready to Share</h2>
+      </div>
       <div class="features-container">
         <div class="features-card">
           <div class="features-card-icon">
@@ -59,7 +64,7 @@ require_once(__DIR__ . '/../components/header.php');
           <div class="features-card-content">
             <h3>Take Control</h3>
             <p>
-              Have control over what sections of the video you<br> want to cut to edit.
+              Have control over what sections of the video you want to cut to edit.
             </p>
           </div>
         </div>
@@ -70,7 +75,7 @@ require_once(__DIR__ . '/../components/header.php');
           <div class="features-card-content">
             <h3>AI Reframe</h3>
             <p>
-              Our AI will automatically detect active speakers, re-<br>framing them into focus.
+              Our AI will automatically detect active speakers, re-framing them into focus.
             </p>
           </div>
         </div>
@@ -81,12 +86,13 @@ require_once(__DIR__ . '/../components/header.php');
           <div class="features-card-content">
             <h3>Create Captions</h3>
             <p>
-              Edit, style, and customize your captions with 98%<br> transcription precision and 99 supported languages.
+              Edit, style, and customize your captions with 98% transcription precision and 99 supported languages.
             </p>
           </div>
         </div>
       </div>
     </div>
+  </section>
 </html>
 <!-- end of base -->
 
