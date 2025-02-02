@@ -38,6 +38,29 @@ function checkScreenSize() {
     }
 }
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const faqCards = document.querySelectorAll('.faq-card');
+
+    faqCards.forEach(card => {
+        card.addEventListener('click', function() {
+            // Close all other cards
+            faqCards.forEach(otherCard => {
+                if (otherCard !== card) {
+                    otherCard.classList.remove('expanded');
+                }
+            });
+
+            // Toggle the clicked card
+            card.classList.toggle('expanded');
+        });
+    });
+});
+
+
+
+
+
 // Add event listener to check screen size on window resize
 window.addEventListener('resize', checkScreenSize);
 

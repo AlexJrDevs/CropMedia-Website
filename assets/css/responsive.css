@@ -3,7 +3,7 @@
 /* Min Width 992px and Max Width 1199px */
 @media (max-width: 1200px){
 
-  /* Header Part CSS Start */
+  /* Navigation Part CSS Start */
 
   .navigation-container {
     font-size: 18px;
@@ -102,8 +102,12 @@
     font-weight: 700;
   }
 
+  .sign-in-btn,
+  .sign-up-btn {
+    padding: 13px 31px;
+  }
 
-  /* Header Part CSS End */
+  /* Navigation Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
 
@@ -113,11 +117,24 @@
     padding: 1rem;
   }
 
+
+  #faq-section {
+    padding: 1rem;
+  }
+
+  /* Footer Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
+
+  .dashboard-container {
+    width: 90%;
+  }
 }
 
 @media (max-width: 900px){
 
-  /* Header Part CSS Start */
+  /* Navigation Part CSS Start */
 
 
   .header-logo img {
@@ -134,7 +151,12 @@
     padding: 1rem 1rem;
   }
 
-  /* Header Part CSS End */
+  .sign-in-btn,
+  .sign-up-btn {
+    padding: 12px 30px;
+  }
+
+  /* Navigation Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
 
@@ -187,10 +209,6 @@
   .hero-content p {
     font-size: 16px;
   }
-
-  .features-header h2 {
-    font-size: 30px;
-  }
   .features-container {
     grid-template-columns: repeat(1, minmax(0, 1fr)); /* Stack cards in a single column */
   }
@@ -200,11 +218,28 @@
     min-height: 20rem;
   }
 
+
+  .faq-content {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* Stack cards in a single column */
+  }
+
+  /* Index Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
+
+  .texture-wrapper {
+    display: none;
+  }
+
+  .sign-up-container {
+    border-radius: 20px
+  }
 }
 
 @media (max-width: 768px){
 
-  /* Header Part CSS Start */
+  /* Navigation Part CSS Start */
 
   .header-logo img {
     max-width: 40px;
@@ -216,10 +251,37 @@
     font-weight: 700;
   }
 
-  /* Header Part CSS End */
+  .sign-in-btn,
+  .sign-up-btn {
+    padding: 11px 29px;
+  }
+
+  /* Navigation Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
 
+  /* Index Part CSS Start */
+
+  .faq-content {
+    flex-direction: column;
+  }
+
+  .faq-header h2 {
+      font-size: 2rem;
+  }
+
+
+  .cta-texture {
+    display: none;
+  }
+
+  .cta-container {
+    align-items: center;
+  }
+
+  /* Index Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
 
 
 }
@@ -227,7 +289,7 @@
 
 @media (max-width: 600px){
 
-  /* Header Part CSS Start */
+  /* Navigation Part CSS Start */
 
   .header-logo img {
     max-width: 35px;
@@ -237,12 +299,17 @@
     font-size: 16px;
   }
 
+  .sign-in-btn,
+  .sign-up-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
 
   .dropdown-button {
     padding-right: 0.4rem;
   }
 
-  /* Header Part CSS End */
+  /* Navigation Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
 
@@ -275,22 +342,59 @@
   .upload-text {
     font-size: 0.875rem;
   }
+  .features-wrapper {
+    padding: 0rem;
+  }
+  .features-header h2{
+    line-height: 1.2em;
+    font-size: 2rem;
+  }
 
+  .features-header-underline::after {
+    bottom: -0.1em;
+  }
+
+  .faq-wrapper {
+    width: 100%;
+  }
+
+  /* Index Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
+
+  .dashboard-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .dashboard-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .social-media-connect {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 400px){
 
-  /* Header Part CSS Start */
+  /* Navigation Part CSS Start */
 
   .header-logo img {
     max-width: 30px;
   }
 
   .header-logo a {
-      font-size: 14px;
+    font-size: 14px;
   }
 
-  /* Header Part CSS End */
+  .sign-in-btn,
+  .sign-up-btn {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+
+  /* Navigation Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
 
@@ -318,13 +422,17 @@
   .upload-text {
     font-size: 0.65625rem;
   }
-  
+
+  /* Index Part CSS End */
+
+  /* ///////////////////////////////////////////////////////////// */
 
 }
 
 @media (max-width: 380px){
 
-  /* Header Part CSS Start */
+  /* Index Part CSS Start */
+
   .hero-content h1 {
     font-size: 24px;
   }
@@ -338,11 +446,17 @@
   }
 
   .navigation-container {
-      padding: 0.5rem 0rem;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .sign-in-btn,
+  .sign-up-btn {
+    padding: 4px 8px;
+    font-size: 8px;
   }
 
 
-  /* Header Part CSS End */
+  /* Index Part CSS End */
 
   /* ///////////////////////////////////////////////////////////// */
 

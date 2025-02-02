@@ -34,9 +34,9 @@
                     </div>
                     <ul>
                         <li><a href="#">Product</a></li>
-                        <hr class="line-splitter">
+                        <hr class="nav-line-splitter">
                         <li><a href="#">Resources</a></li>
-                        <hr class="line-splitter">
+                        <hr class="nav-line-splitter">
                         <li><a href="#">Pricing</a></li>
                     </ul>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="auth-buttons">
                     <ul>
                         <li><a class="sign-in-btn" href="sign-in.php">Sign In</a></li>
-                        <li><a class="sign-up-btn" href="sign-up.php">Sign Up</a></li>
+                        <li><a class="sign-up-btn" href="dashboard.php">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
