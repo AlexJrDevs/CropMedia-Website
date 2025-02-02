@@ -251,7 +251,7 @@ require_once(__DIR__ . '/../components/header.php');
           </div>
         </div>
         <div class="cta-texture">
-          <img src="../assets/images/BG_texture.svg" alt="bg-texture" />
+          <img src="../assets/images/BG_texture_brighter.svg" alt="bg-texture" />
         </div>
       </div>
     </section>

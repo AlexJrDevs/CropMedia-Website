@@ -41,7 +41,7 @@ require_once(__DIR__ . '/../components/header.php');
 
               <div class="dashboard-accounts">
                   <div class="connect-accounts-header">
-                    <h2>Connected Accounts</h2>
+                    <h3>Connected Accounts</h3>
                     <p>Connect your Facebook or Google accounts to use them to sign in to CropMedia.</p>
                   </div>
 
@@ -64,6 +64,8 @@ require_once(__DIR__ . '/../components/header.php');
                       </div>
                       <button class="social-media-connect">Disconnect Facebook</button>
                   </div>
+
+                  <hr class="dashboard-accounts-line">
               </div>
 
               <div class="account-section">
