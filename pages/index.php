@@ -27,6 +27,9 @@ require_once(__DIR__ . '/../components/header.php');
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="../assets/js/auth.js" defer></script>
   </head>
 
   <section id="hero-section">
@@ -178,6 +181,7 @@ require_once(__DIR__ . '/../components/header.php');
             <h2>Frequently Asked Questions</h2>
         </div>
         <div class="faq-content">
+
             <!-- First Column -->
             <div class="faq-column">
                 <div role="button" class="faq-card">
@@ -246,8 +250,8 @@ require_once(__DIR__ . '/../components/header.php');
         <div class="cta-container">
           <h2>Cut, Edit and Share.</h2>
           <div class="cta-buttons">
-            <a href="#" class="cta-get-started-button">Get Started</a>
-            <a href="#" class="cta-sign-in-button">Sign In</a>
+            <a href="sign-up.php" class="cta-get-started-button">Get Started</a>
+            <a href="sign-in.php" class="cta-sign-in-button">Sign In</a>
           </div>
         </div>
         <div class="cta-texture">

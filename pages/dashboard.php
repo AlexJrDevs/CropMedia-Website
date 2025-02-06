@@ -26,6 +26,9 @@ require_once(__DIR__ . '/../components/header.php');
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="../assets/js/auth.js" defer></script>
   </head>
   <body>
 
@@ -52,17 +55,17 @@ require_once(__DIR__ . '/../components/header.php');
                           <img src="../assets/images/icon_google.svg" alt="Google Icon">
                           <h3>Google</h3>
                       </div>
-                      <button class="social-media-connect">Connect Google</button>
+                      <button class="social-media-connect enabled" id="google-connect">Connect Google</button>
                   </div>
                   
                   <hr class="dashboard-accounts-line">
 
                   <div class="connect-account">
                       <div class="account-info">
-                          <img src="../assets/images/icon_facebook.svg" alt="Google Icon">
+                          <img src="../assets/images/icon_facebook.svg" alt="Facebook Icon">
                           <h3>Facebook</h3>
                       </div>
-                      <button class="social-media-connect">Disconnect Facebook</button>
+                      <button class="social-media-connect enabled" id="facebook-connect">Disconnect Facebook</button>
                   </div>
 
                   <hr class="dashboard-accounts-line">
@@ -78,7 +81,7 @@ require_once(__DIR__ . '/../components/header.php');
 
                     <div class="detail-row">
                         <h3>Email</h3>
-                        <p>CropMedia@cropmedia.pro</p>
+                        <p id="user-email-display">Loading...</p>
                     </div>
 
                     <hr class="dashboard-accounts-line">

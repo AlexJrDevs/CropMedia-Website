@@ -27,6 +27,10 @@ require_once(__DIR__ . '/../components/header.php');
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="../assets/js/auth.js" defer></script>
+
   </head>
 
     <section id="sign-up-section">
@@ -70,11 +74,11 @@ require_once(__DIR__ . '/../components/header.php');
                 <div class="social-media-icons">
                     <a href="#">
                         <img src="../assets/images/icon_google.svg"></i>
-                        <p>Google</p>
+                        <p id="google-connect">Google</p>
                     </a>
                     <a href="#">
                         <img src="../assets/images/icon_facebook.svg"></i>
-                        <p>Facebook</p>
+                        <p id="facebook-connect">Facebook</p>
                     </a>
                 </div>
             </div>
