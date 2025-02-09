@@ -1,3 +1,4 @@
-from .audio_transcribe import AudioTranscribe
+from .audio_transcribe.transcription import AudioTranscribe
 
-from .speaker_tracking import SpeakerTracker
+
+from .video_manager import VideoManager

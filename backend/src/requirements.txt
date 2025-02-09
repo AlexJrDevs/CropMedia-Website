@@ -1,0 +1,11 @@
+- pip install torchvision==0.17.0+cu118 torchaudio==2.6.0+cu118  torch==2.6.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+- gdown
+- pip install choco
+- choco install wget
+- pip install Whisperx
+- faster-whisper==1.1.0
+- ctranslate2<4.5.0
+- transformers
+- pandas
+- setuptools>=65
+- nltk
